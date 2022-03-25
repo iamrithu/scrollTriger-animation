@@ -1,0 +1,198 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: antiquewhite;
+    background-image: url('./SVG/night-sky-with-stars-nebula 2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    height: 1000px;
+}
+
+#bg {
+    position: fixed;
+    widows: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#indroText {
+    position: fixed;
+    top: 200px;
+    left: 350px;
+    width: 50%;
+}
+
+#welcomeText {
+    position: fixed;
+    left: 350px;
+    bottom: -300px;
+    width: 50%;
+}
+
+#spaceShip {
+    position: fixed;
+    top: 200px;
+    left: -400px;
+    width: 400px;
+}
+
+#spaceFrame {
+    opacity: 0;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#planet {
+    opacity: 0;
+    position: fixed;
+    top: 150px;
+    right: 200px;
+    width: 80px;
+    height: 80px;
+}
+
+#text1 {
+    opacity: 0;
+    position: fixed;
+    top: 200px;
+    right: 410px;
+    width: 40%;
+}
+
+#content {
+    opacity: 0;
+    position: fixed;
+    width: 40%;
+    top: 100px;
+    left: 200px;
+}
+
+#forest {
+    opacity: 0;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+#forest-cover {
+    opacity: 0;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+#text2 {
+    position: fixed;
+    top: 200px;
+    left: 400px;
+    width: 40%;
+    opacity: 0;
+}
+
+#city {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    opacity: 0;
+}
+
+#text3 {
+    position: fixed;
+    top: 250px;
+    left: 550px;
+    width: 40%;
+    opacity: 0;
+}
+
+#theatre {
+    position: fixed;
+    opacity: 0;
+}
+
+#text4 {
+    position: fixed;
+    top: 350px;
+    left: 550px;
+    width: 40%;
+    opacity: 0;
+}
+
+#glow-globle {
+    position: fixed;
+    width: 100%;
+    top: -100px;
+    left: 0px;
+    opacity: 0;
+}
+
+#vector {
+    position: fixed;
+    width: 15%;
+    top: 240px;
+    left: 500px;
+    opacity: 0;
+}
+
+#text5 {
+    width: 45%;
+    position: fixed;
+    top: 200px;
+    left: 400px;
+    opacity: 0;
+}
+
+#Q-1 {
+    width: 50px;
+    position: fixed;
+    top: 330px;
+    left: 600px;
+    opacity: 0;
+}
+
+#road-map {
+    position: fixed;
+    top: 120px;
+    left: 400px;
+    width: 40%;
+    opacity: 0;
+}
+
+#conclusion {
+    position: fixed;
+    width: 30%;
+    top: 300px;
+    left: 480px;
+    opacity: 0;
+}
+
+#title {
+    position: fixed;
+    top: 120px;
+    left: 530px;
+    width: 20%;
+    opacity: 0;
+}
+
+#input-value {
+    position: fixed;
+    top: 250px;
+    left: 800px;
+    width: 18%;
+    opacity: 0;
+}
